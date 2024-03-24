@@ -1,0 +1,210 @@
+/* HTML MAIN DOCUMENT */
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* MAKING NAVIGATION BAR */
+.navbar
+{
+    background-color: purple;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-texts a
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+.nav-logos
+{
+    position: absolute;
+    top: 30px;
+}
+
+/* MAKING TAGLINE BAR */
+.tagline
+{
+    position: relative;
+    background-color: rgb(23, 32, 51);
+    color: white;
+    text-align: center;
+    height: 200px;
+    transition: 0.3s;
+}
+.tagline:hover
+{
+    background-color: white;
+    color: rgb(23, 32, 51);
+    text-align: center;
+    height: 200px;
+}
+.tag-main
+{
+    position: relative;
+    top: 45px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.tag-others
+{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+}
+
+/* MAKING FIRST PART OF THE BODY */
+.first-body
+{
+    background-color: rgb(23, 32, 51);
+    color: white;
+    text-align: center;
+}
+
+/* COMMON PART IN ENTIRE BODY */
+.body-main p
+{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    font-size: 50px;
+}
+.body-photos
+{
+    transition: 0.3s;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.body-photos:hover
+{
+    transform: scale(1.5);
+}
+.body-others
+{
+    padding-top: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 30%;
+    width: 40%;
+    padding-bottom: 40px;
+}
+
+/* MAKING SECOND PART OF THE BODY */
+.second-body
+{
+    background-color: white;
+    color: rgb(23, 32, 51);
+    text-align: center;
+}
+
+/* MAKING THIRD PART OF THE BODY */
+.third-body
+{
+    background-color: white;
+    color: rgb(23, 32, 51);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* COMMON PART OF ALL THE BOXES */
+.box
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+table{
+    width: 100%;
+}
+th
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    color: rgb(23, 32, 51);
+}
+tr
+{
+    font-size: 20px;
+}
+.tr-odd
+{
+    background-color: rgb(23, 32, 51);
+    color: white;
+}
+.tr-even
+{
+    background-color: white;
+    color: rgb(23, 32, 51);
+}
+.box-1
+{
+    background-color: white;
+    color: rgb(23, 32, 51);
+    text-align: center;
+    width: 45%;
+    box-shadow: 5px 5px 10px +0.2rem;
+}
+.box-2
+{
+    color: rgb(23, 32, 51);
+    font-size: 50px;
+    text-align: center;
+    width: 40%;
+    padding-left: 20px;
+    margin-top: 5px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 10px +0.2rem;
+}
+.box-2-1
+{
+    left: 5%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    
+}
+.box-2-2
+{
+    left: 5%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+}
+.box-others
+{
+    padding-top: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 10%;
+    width: 55%;
+}
+
+/* FOURTH PART OF THE BODY */
+.fourth-body
+{
+    position: relative;
+    background-color: rgb(23, 32, 51);
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+/* MAKING FOOTER */
+.bottom-bar
+{
+    background-color: purple;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom-texts
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
