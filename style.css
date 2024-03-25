@@ -188,8 +188,9 @@ tr
 }
 .box-main
 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
     background-color: rgb(23, 32, 51);
     color: white;
 }
@@ -216,15 +217,23 @@ tr
 /* MAKING FOOTER */
 .bottom-bar
 {
-    background-color: purple;
-    height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    padding-left: 10%;
+    background-color: purple;
+    height: 100px;
 }
-.bottom-texts
+.bottom-texts p
 {
     text-decoration: none;
     font-size: 40px;
     color: white;
+    margin-right: 10px;
+}
+.bottom-texts a
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    margin-right: 10px;
 }
