@@ -19,6 +19,16 @@
     text-decoration: none;
     font-size: 40px;
     color: white;
+    transition: 0.2s;
+}
+.nav-texts a:hover , a:focus
+{
+    color: rgb(23, 32, 51);
+}
+.nav-texts a:active
+{
+    color: rgb(23, 32, 51);
+    text-decoration: underline rgb(23, 32, 51);
 }
 .nav-logos
 {
@@ -236,4 +246,13 @@ tr
     font-size: 40px;
     color: white;
     margin-right: 10px;
+}
+.bottom-texts a:hover , a:focus
+{
+    color: rgb(23, 32, 51);
+}
+.bottom-texts a:active
+{
+    color: rgb(23, 32, 51);
+    text-decoration: underline rgb(23, 32, 51);
 }
