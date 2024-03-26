@@ -1,0 +1,154 @@
+/* HTML MAIN DOCUMENT */
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* MAKING NAVIGATION BAR */
+.navbar
+{
+    background-color: purple;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-texts a
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+.nav-texts a:hover , a:focus
+{
+    color: rgb(23, 32, 51);
+}
+.nav-texts a:active
+{
+    color: rgb(23, 32, 51);
+    text-decoration: underline rgb(23, 32, 51);
+}
+.nav-logos
+{
+    position: absolute;
+    top: 30px;
+}
+
+/* MAKING TAGLINE BAR */
+.tagline
+{
+    position: relative;
+    background-color: rgb(23, 32, 51);
+    color: white;
+    text-align: center;
+    height: 200px;
+    transition: 0.3s;
+}
+.tagline:hover
+{
+    background-color: white;
+    color: rgb(23, 32, 51);
+    text-align: center;
+    height: 200px;
+}
+.tag-main
+{
+    position: relative;
+    top: 45px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.tag-others
+{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+}
+
+/* MAKING ODD AND EVEN DIVISIONS */
+.odd 
+{
+    background-color: rgb(23,32,51);
+    color: white;
+    height: 400px;
+}
+.even
+{
+    background-color: white;
+    color: rgb(23,32,51);
+    height: 400px;
+}
+.odd a
+{
+    color: white;
+}
+.even a
+{
+    color: rgb(23, 32, 51);
+}
+/* DIV CONTAINING HEADER */
+.headingtext
+{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+/* DIV CONTAINING A LINE OF VIDEOS */
+.videos
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 35px;
+}
+
+/* DIV CONTAINING ENTIRE VIDEO */
+.video
+{
+    position: relative;
+    height: 250px;
+    width: 20%;
+}
+
+/* DIV MAKING THE BACKGROUND LESS OPAQUE */
+.video-main
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #888888;
+    border-radius: 10px;
+    opacity: 40%;
+}
+
+/* DIV CONTAINING VIDEO IMAGE */
+.video-image a
+{
+    z-index: 1;
+    position:absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+/* DIV CONTAININBG VIDEO TEXTS */
+.main-texts a
+{
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    font-size: 30px;
+    padding-top: 175px;
+    margin-left: 10%;
+}
+.other-texts a
+{
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    font-size: 20px;
+    padding-top: 210px;
+    margin-left: 15%;
+}
