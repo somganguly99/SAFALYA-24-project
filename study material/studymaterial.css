@@ -65,6 +65,63 @@
     top: 50px;
     font-size: 20px;
 }
+/* MAKINGS SYLLABUS TAG */
+.syllabus
+{
+    height: 200px;
+    background-color: white;
+    color: rgb(23, 32, 51);
+    text-align: center;
+    margin-top: 10px;
+}
+.syllabus-main
+{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.syllabus-others
+{
+    font-size: 40px;
+    display: flex;
+    margin-left: 33%;
+}
+.so-1
+{
+    margin-right: 10px;
+}
+.so-2 a
+{
+    color: rgb(23, 32, 51);
+}
+
+/* MAKINGS PYQ TAG */
+.pyq
+{
+    height: 200px;
+    background-color: white;
+    color: rgb(23, 32, 51);
+    text-align: center;
+    margin-top: 10px;
+}
+.pyq-main
+{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.pyq-others
+{
+    font-size: 40px;
+    display: flex;
+    margin-left: 25%;
+}
+.po-1
+{
+    margin-right: 10px;
+}
+.po-2 a
+{
+    color: rgb(23, 32, 51);
+}
 
 /* MAKING ODD AND EVEN DIVISIONS */
 .odd 
@@ -92,7 +149,7 @@
 {
     text-align: center;
     font-size: 50px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 /* DIV CONTAINING A LINE OF VIDEOS */
@@ -111,7 +168,19 @@
     height: 250px;
     width: 20%;
 }
-
+.video-texts
+{
+    transition: 0.3s;
+}
+.video-texts a:hover
+{
+    text-decoration: underline white;
+}
+.video-texts a:active
+{
+    color: rgb(0, 0, 0);
+    text-decoration: underline black;
+}
 /* DIV MAKING THE BACKGROUND LESS OPAQUE */
 .video-main
 {
@@ -124,14 +193,14 @@
 }
 
 /* DIV CONTAINING VIDEO IMAGE */
-.video-image a
+.video img
 {
     z-index: 1;
-    width: inherit;
-    position:absolute;
+    position: absolute;
     margin-top: 5%;
-    margin-left: 8%;
+    margin-left: 5%; 
     border-radius: 10px;
+    width: 90%;
 }
 
 /* DIV CONTAININBG VIDEO TEXTS */
