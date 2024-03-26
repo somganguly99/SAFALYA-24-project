@@ -127,9 +127,10 @@
 .video-image a
 {
     z-index: 1;
+    width: inherit;
     position:absolute;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 8%;
     border-radius: 10px;
 }
 
