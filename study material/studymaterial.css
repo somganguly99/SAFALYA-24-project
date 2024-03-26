@@ -65,6 +65,7 @@
     top: 50px;
     font-size: 20px;
 }
+
 /* MAKINGS SYLLABUS TAG */
 .syllabus
 {
@@ -221,4 +222,37 @@
     font-size: 15px;
     padding-top: 210px;
     margin-left: 15%;
+}
+
+/* MAKING FOOTER */
+.bottom-bar
+{
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    background-color: purple;
+    height: 100px;
+}
+.bottom-texts p
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    margin-right: 10px;
+}
+.bottom-texts a
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    margin-right: 10px;
+}
+.bottom-texts a:hover , a:focus
+{
+    color: rgb(23, 32, 51);
+}
+.bottom-texts a:active
+{
+    color: rgb(23, 32, 51);
+    text-decoration: underline rgb(23, 32, 51);
 }
