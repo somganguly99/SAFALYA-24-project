@@ -1,0 +1,127 @@
+/* HTML MAIN DOCUMENT */
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* MAKING NAVIGATION BAR */
+.navbar
+{
+    background-color: purple;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-texts a
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+.nav-texts a:hover , a:focus
+{
+    color: rgb(23, 32, 51);
+}
+.nav-texts a:active
+{
+    color: rgb(23, 32, 51);
+    text-decoration: underline rgb(23, 32, 51);
+}
+.nav-logos
+{
+    position: absolute;
+    top: 30px;
+}
+
+/* MAKING TAGLINE BAR */
+.tagline
+{
+    position: relative;
+    background-color: rgb(23, 32, 51);
+    color: white;
+    text-align: center;
+    height: 200px;
+    transition: 0.3s;
+}
+.tagline:hover
+{
+    background-color: white;
+    color: rgb(23, 32, 51);
+    text-align: center;
+    height: 200px;
+}
+.tag-main
+{
+    position: relative;
+    top: 45px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.tag-others
+{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+}
+hr
+{
+    color: white;
+}
+/* MAKING BODY */
+.first-part
+{
+    background-color: rgb(23, 32, 51);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20px;
+}
+.second-part
+{
+    background-color: white;
+    color: rgb(23, 32, 51);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20px;
+}
+
+/* MAKING FOOTER */
+.bottom-bar
+{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    background-color: purple;
+    height: 100px;
+}
+.bottom-texts p
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    margin-right: 10px;
+}
+.bottom-texts a
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    margin-right: 10px;
+}
+.bottom-texts a:hover , a:focus
+{
+    color: rgb(23, 32, 51);
+}
+.bottom-texts a:active
+{
+    color: rgb(23, 32, 51);
+    text-decoration: underline rgb(23, 32, 51);
+}

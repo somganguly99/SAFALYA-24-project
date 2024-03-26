@@ -65,6 +65,7 @@
     top: 50px;
     font-size: 20px;
 }
+
 /* MAKINGS SYLLABUS TAG */
 .syllabus
 {
@@ -209,7 +210,7 @@
     text-decoration: none;
     z-index: 1;
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 175px;
     margin-left: 10%;
 }
@@ -218,7 +219,40 @@
     text-decoration: none;
     z-index: 1;
     position: absolute;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 210px;
     margin-left: 15%;
+}
+
+/* MAKING FOOTER */
+.bottom-bar
+{
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    background-color: purple;
+    height: 100px;
+}
+.bottom-texts p
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    margin-right: 10px;
+}
+.bottom-texts a
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    margin-right: 10px;
+}
+.bottom-texts a:hover , a:focus
+{
+    color: rgb(23, 32, 51);
+}
+.bottom-texts a:active
+{
+    color: rgb(23, 32, 51);
+    text-decoration: underline rgb(23, 32, 51);
 }
