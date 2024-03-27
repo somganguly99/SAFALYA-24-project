@@ -239,6 +239,7 @@ tr
     font-size: 40px;
     color: white;
     margin-right: 10px;
+    text-align: center;
 }
 .bottom-texts a
 {
@@ -246,13 +247,16 @@ tr
     font-size: 40px;
     color: white;
     margin-right: 10px;
+    text-align: center;
 }
 .bottom-texts a:hover , a:focus
 {
     color: rgb(23, 32, 51);
+    text-align: center;
 }
 .bottom-texts a:active
 {
     color: rgb(23, 32, 51);
     text-decoration: underline rgb(23, 32, 51);
+    text-align: center;
 }
